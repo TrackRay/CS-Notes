@@ -1,0 +1,22 @@
+{
+  "index": "介绍",
+  "another": "Another Page",
+  "advanced": "Advanced (A Folder)", 
+  "--": {
+    "type": "separator",
+    "title": "A Separator"
+  }, 
+  "Aug": {
+    "title": "八月"
+  },
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://twitter.com/trackray",
+    "newWindow": true
+  }
+}

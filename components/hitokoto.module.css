@@ -1,0 +1,21 @@
+.hitokoto {
+
+    display: flex;
+
+    flex-direction: column;
+
+    max-width: 60%;
+
+}
+
+.hitokoto-text {
+
+    text-align: left;
+
+}
+
+.from {
+
+    text-align: right;
+
+}
