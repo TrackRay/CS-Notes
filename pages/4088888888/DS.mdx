@@ -112,7 +112,73 @@ import Hitokoto from '../../components/hitokoto';
 
 ![image-20230901234654191](https://pic.redhat.team/uPic/image-20230901234654191.png)
 
+### 05.7.5 散列表
 
+> **简单，就是关键字通过函数映射地址**
+
+[01.7.5.1散列表的基本概念](https://web.goodnotes.com/s/sBlrTp8ELt64q7AzqhwLco)
+
+![image-20230902113805578](https://pic.redhat.team/uPic/image-20230902113805578.png)
+
+[02.7.5.2散列函数的构造](https://web.goodnotes.com/s/WHgVBlKGQ3JnjbW4GfuDY7)
+
+> **最常考除留余数法H(key) = key % p(不大于表长m最接近或等于m的质数)**
+
+![image-20230902120139476](https://pic.redhat.team/uPic/image-20230902120139476.png)
+
+[03.7.5.3_1处理冲突的方法_拉链法](https://web.goodnotes.com/s/sXg76bqHHFRigmf9RCxvRS)
+
+> **拉链法：冲突，丢到链表中；学会分析查找长度（对比次数）**
+>
+> **散列表通常不考代码，着重掌握手算分析方法**
+
+**插入小优化：**保持链表有序，可以提高查找效率
+
+![image-20230902121324015](https://pic.redhat.team/uPic/image-20230902121324015.png)
+
+[04.7.5.3_2处理冲突的方法_开放定址法](https://web.goodnotes.com/s/1ysRQ8q1tk8uoWGOnMKzag)
+
+> **开放定址法：冲突，找个新位置**
+
+![image-20230902143552934](https://pic.redhat.team/uPic/image-20230902143552934.png)
+
+![image-20230902144330283](https://pic.redhat.team/uPic/image-20230902144330283.png)
+
+## 第八章-排序
+
+### 01.8.1 排序的基本概念
+
+[01.8.1排序的基本概念](https://web.goodnotes.com/s/3W3LnrFeiVEIQf3XLxRxHu)
+
+![image-20230902150348571](https://pic.redhat.team/uPic/image-20230902150348571.png)
+
+### 02.8.2 插入排序
+
+[01.8.2.1+8.2.2插入排序](https://web.goodnotes.com/s/1ysRQ8q1tk8uoWGOnMKzag)
+
+![image-20230902153926509](https://pic.redhat.team/uPic/image-20230902153926509.png)
+
+[02.8.2.3希尔排序](https://web.goodnotes.com/s/1ysRQ8q1tk8uoWGOnMKzag)
+
+> **叫希尔的人发明的，插入的改进；先追求部分有序，再逐渐逼近全局有序（部分->全局）**
+
+**就是重复缩小增量（子表进行直接插入排序），直至增量为1（此时基本有序，然后再对整体进行一次直接插入排序），故又叫缩小增量排序；不稳定，仅适用于顺序表[数组]**
+
+**自述过程：**按照增量划分多个组，每组进行直接插入排序（手算无所谓，总之每组最终是有序的），然后按照下标对应位置组合在一块
+
+![IMG_1102](https://pic.redhat.team/uPic/IMG_1102.jpeg)
+
+![image-20230902162631314](https://pic.redhat.team/uPic/image-20230902162631314.png)
+
+### 03.8.3 交换排序
+
+[01.8.3.1冒泡排序]()
+
+**是否适用于链表，看是否需要随机访问元素**
+
+![image-20230902163717498](https://pic.redhat.team/uPic/image-20230902163717498.png)
+
+[02.8.3.2快速排序]()
 
 
 
