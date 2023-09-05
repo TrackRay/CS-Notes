@@ -2,6 +2,7 @@
   "index": "介绍",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)", 
+  "QuizPage": "英语阅读练习", 
   "--": {
     "type": "separator",
     "title": "A Separator"

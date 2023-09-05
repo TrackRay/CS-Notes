@@ -1,0 +1,25 @@
+.quiz-container {
+    padding: 20px;
+  }
+  
+  .question-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .question-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  
+  .reset-button {
+    margin-top: 20px;
+  }
+  
