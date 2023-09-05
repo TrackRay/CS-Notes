@@ -1,11 +1,25 @@
-.hitokoto {
+@media screen and (min-width:1024px){
+    .hitokoto {
 
-    display: flex;
+        display: flex;
+    
+        flex-direction: column;
+    
+        max-width: 60%;
+    
+    }
+}
 
-    flex-direction: column;
+@media screen and (max-width:1024px){
+    .hitokoto {
 
-    max-width: 60%;
-
+        display: flex;
+    
+        flex-direction: column;
+    
+        max-width: 91%;
+    
+    }
 }
 
 .hitokoto-text {
